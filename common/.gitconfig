@@ -1,0 +1,17 @@
+[user]
+    useconfigonly = true
+    name = Curtis Alexander
+    email = calex@calex.org
+[push]
+    default = simple
+[merge]
+    conflictstyle = diff3
+[receive]
+    denyCurrentBranch = updateInstead
+[core]
+    autocrlf = input
+    editor = vim
+[github]
+    user = curtisalexander
+[pull]
+    ff = only

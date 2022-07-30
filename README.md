@@ -40,4 +40,12 @@ git clone https://github.com/curtisalexander/droca.git
     
 ## Add a New File
 
+### Windows
+Making a symbolic link
+
+```ps1
+# open PowerShell as an Admin
+New-Item -Type SymbolicLink -Target "C:\Users\myusername\code\droca\common\.gitconfig" -Path "C:\Users\myusername\.gitconfig"
+```
+
 ## Remove a File

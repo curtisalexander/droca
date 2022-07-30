@@ -1,5 +1,4 @@
 # droca
-dotfile repo of curtis alexander
 
 :construction:
 Very much a work in progress!!!

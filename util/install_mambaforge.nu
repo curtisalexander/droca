@@ -1,6 +1,7 @@
+# Install mambaforge
 def main [
-    _?: string
-    --dry-run: bool = false
+    _?: string               # no-op
+    --dry-run: bool = false  # perform a dry run - do not actually download, install, or delete any files
 ] { 
     # temp in Windows or other
     let tmp = if $nu.os-info.name == "windows" {
@@ -27,7 +28,7 @@ def main [
         fetch $url --bin | save --raw $full_path
     }
 
-    print $"\Installing (ansi blue_bold)($full_path)(ansi reset)"
+    print $"\nInstalling (ansi blue_bold)($full_path)(ansi reset)"
 
     # execute installer
     # wait (block) until installation complete

@@ -1,7 +1,5 @@
 # droca
-
-:construction:
-Very much a work in progress!!!
+:exclamation: Very much a work in progress!!!
 
 ## Organization
 

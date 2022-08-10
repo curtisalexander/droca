@@ -21,6 +21,8 @@ Files specific to macOS
 Utilities
 
 ## New Machine
+
+### Install `git`
 - Install `git`
 
 ```cmd
@@ -33,11 +35,20 @@ winget install git
 git clone https://github.com/curtisalexander/droca.git
 ```
 
-- Run __ utility to symlink files
-    - Windows &rarr;
-    - Linux &rarr;
-    - macOS &rarr;
-    
+### Install `Nushell`
+- Install `Nushell`
+
+```cmd
+# Windows
+winget install nushell
+```
+
+### Symlink files
+Run __ utility to symlink files
+- Windows &rarr;
+- Linux &rarr;
+- macOS &rarr;
+
 ## Add a New File
 
 ### Windows

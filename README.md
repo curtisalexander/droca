@@ -1,5 +1,5 @@
 # droca
-:exclamation: Very much a work in progress!!!
+:exclamation: :exclamation: :exclamation: Very much a work in progress
 
 ## Organization
 

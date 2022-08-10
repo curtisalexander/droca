@@ -44,12 +44,13 @@ winget install nushell
 ```
 
 ### Symlink files
-Run __ utility to symlink files
+Run :construction: utility to symlink files
 - Windows &rarr;
 - Linux &rarr;
 - macOS &rarr;
 
 ## Add a New File
+:construction:
 
 ### Windows
 Making a symbolic link
@@ -60,3 +61,4 @@ New-Item -Type SymbolicLink -Target "C:\Users\myusername\code\droca\common\.gitc
 ```
 
 ## Remove a File
+:construction:

@@ -1,0 +1,2 @@
+[gpg "ssh"]
+  program = "C:/Users/c4lex/AppData/Local/1Password/app/8/op-ssh-sign.exe"

@@ -2,6 +2,7 @@
     useconfigonly = true
     name = Curtis Alexander
     email = calex@calex.org
+    signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF5t+YFrxoooWihEFte+5CAVgwPPzo08O7Z6JYJq8Jd1
 [push]
     default = simple
 [merge]
@@ -15,3 +16,9 @@
     user = curtisalexander
 [pull]
     ff = only
+[gpg]
+  format = ssh
+[commit]
+  gpgsign = true
+[include]
+    path = ~/.gitconfig.local
